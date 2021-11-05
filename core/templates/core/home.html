@@ -1,0 +1,228 @@
+{% extends 'core/main.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+.hd{
+        color: white;
+        text-align: center;
+        font-size:10vh;
+        
+}
+@media only screen and (max-width:600px) {
+    .hd{
+            font-size: 2rem;
+            color: white;
+        }
+
+}
+
+
+</style>
+<section>
+        <div class="row" style="height: 90vh;background-color: #2f2855; align-content: center;" id="home">
+                <div class="col-sm">
+                        <h1 class="hd">Kk_photography_ke</h1>
+                        <div class="row">
+                                <div class="col" style="text-align: center;width: 100%;">
+                                        <br>
+                                       <a href="#events"> <button class="btn btn-outline-secondary">Get started</button></a><a href="about.html"> <button class="btn btn-secondary">Learn more</button></a>
+                                </div>
+                                <br>
+                        </div>
+                        <div style="padding: 40px;">
+                               <center><p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptas in doloremque praesentium a itaque velit voluptatem eos, aspernatur laborum dolore animi tempore. Cum neque reprehenderit tempore. Sit, assumenda natus!</p></center>
+
+                        </div>
+                </div>  
+        </div>
+</section>
+<section>
+        <div class="row" id="events" style="height: auto;">
+                <div class="col-sm">
+                        <div class="container" style="padding-top: 50px;">
+                                <br>
+                                <div class="card">
+                                        <div class="card-header">
+                                                <h3>Events</h3>
+                                                <small>Top Events</small>
+                                        </div>
+                                        <div class="card-body">
+                                               <div class="row">
+                                                       <div class="col-sm">
+                                                                <div class="card" style="width: 100%;height: 100%;padding: 20px;">
+                                                                        <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                                                                       
+                                                                </div>
+                                                       </div>
+                                                       <div class="col-sm">
+                                                                <div class="card" style="width: 100%;height: 100%;padding: 20px;">
+                                                                        <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                                                                       
+                                                               </div>
+                                                       </div>
+                                                       <div class="col-sm" >
+                                                               <br>
+                                                               <center><button class="btn btn-outline-primary">see more evnts >>></button></center>
+                                                               <br><br><br>
+                                                               <p style="text-align: center;">
+                                                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reiciendis perspiciatis tenetur iure? Esse aliquam quod quos ratione? Qui facere nostrum aliquam alias ea accusantium quos optio numquam asperiores et?
+                                                               </p>
+                                                       </div>
+                                               </div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</section>
+<section>
+        <div class="row" id="commercia" style="height: auto; padding-top: 50px;">
+                <br>
+                <br>
+                <br>
+                <div class="col-sm" style="padding: 20px;">
+                        <div class="container">
+                                <h3>Commercia</h3>
+                        <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi et ab nobis eaque nostrum cumque doloremque placeat saepe? Magni quibusdam dolores, aperiam dicta omnis corporis tempora officiis repellat harum!
+                        </p>
+                        <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi et ab nobis eaque nostrum cumque doloremque placeat saepe? Magni quibusdam dolores, aperiam dicta omnis corporis tempora officiis repellat harum!
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ipsam exercitationem magnam quaerat necessitatibus veritatis minima nihil provident officia eos, quo aut. Natus dolor perferendis amet voluptate doloremque illum tenetur totam deleniti facilis. Voluptates tenetur quo repellat ipsum id aspernatur error saepe velit aliquid? Laboriosam doloribus quam provident, non doloremque ratione beatae voluptatem corrupti magnam, incidunt possimus enim iure temporibus itaque dolore, architecto officiis amet consequatur! Debitis molestiae repellat non quibusdam ducimus saepe corporis laudantium amet officia ratione porro ut omnis explicabo dolorem, obcaecati vel quas ab eius quo itaque ullam. Adipisci voluptatem aperiam quo, maiores autem aliquid nobis delectus!</p>
+                        <div class="card" style="width: 100%;height: 40%;padding: 20px;">
+                                <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                                <div class="card-footer">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et neque? Nulla laudantium modi dolores porro itaque mollitia doloribus nobis?
+                                        <br>
+                                        <button class="btn btn-secondary">see like</button>
+                                </div>
+                        </div>
+                        <br>
+                        <center><button class="btn btn-outline-primary">see more >>></button></center>
+                        </div>
+                </div>
+                <div class="col-sm">
+                        <div class="card" style="width: 100%;height: auto;padding: 20px;">
+                                <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                                <div class="card-footer">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et neque? Nulla laudantium modi dolores porro itaque mollitia doloribus nobis?
+                                        <br>
+                                        <button class="btn btn-secondary">see like</button>
+                                </div>
+                               
+                        </div>
+                        <div class="card" style="width: 100%;height: auto;padding: 20px;">
+                                <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                                <div class="card-footer">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, et neque? Nulla laudantium modi dolores porro itaque mollitia doloribus nobis?
+                                        <br>
+                                        <button class="btn btn-secondary">see like</button>
+                                </div>
+                        </div>
+               </div>
+               
+        </div>
+        </div>
+</section>
+
+<section>
+        <div class="row" id="corporate" style="height: 90vh;background-color: #2f2855;">
+        <div class="container" style="padding-top: 50px;">
+                <h1 style="color: white;">Corporate</h1>
+                <div class="row">
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">Corporate 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">Corporate 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">Corporate 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <br>
+                        <div class="row" style="background-color: #2f2855;padding: 40px;">
+                                <center><button class="btn btn-secondary">view all</button>
+                                
+                                </center>
+                        </div> 
+                </div>
+                
+        </div>
+        </div>
+</section>
+<section>
+        <div class="row" id="fassion" style="height: 90vh;">
+        <div class="container" style="padding-top: 50px;">
+                <h1 style="color: #2f2855;">fassion</h1>
+                <div class="row">
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">fassion 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">fassion 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <div class="col-sm">
+                                <div class="card" style="display: flex;">
+                                        <h4 style="margin-left: 10px;">fassion 1</h4>
+                                        <img src="{% static 'images/col1.jpg' %}" alt="" width="300px" height="450px">
+                                </div>
+                        </div>
+                        <br>
+                        <div class="row" style="background-color: #2f2855;padding: 40px;">
+                                <center><button class="btn btn-secondary">view all</button>
+                                
+                                </center>
+                        </div> 
+                </div>
+        </div>
+        </div>
+</section>
+<section>
+        <div class="row" id="wedding" style="height: 90vh;">
+        <div class="container" style="padding-top: 50px;">
+                <h1>Wedding</h1>
+                <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi et ab nobis eaque nostrum cumque doloremque placeat saepe? Magni quibusdam dolores, aperiam dicta omnis corporis tempora officiis repellat harum!
+                </p>
+                <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quasi et ab nobis eaque nostrum cumque doloremque placeat saepe? Magni quibusdam dolores, aperiam dicta omnis corporis tempora officiis repellat harum!
+                </p>
+                <div class="card" style="width: 100%;height: 40%;padding: 20px;">
+                        <img src="{% static 'images/col1.jpg' %}" alt="" style="width: 100%;height: 100%;">
+                        <div class="card-footer">
+                             
+                        </div>
+                </div>
+                <br>
+                <center><button class="btn btn-outline-primary">see more >>></button></center>
+                </div>
+                
+        </div>
+        </div>
+</section>
+<section>
+        <div class="row" id="Potraits" style="height: 90vh;">
+        <div class="container" style="padding-top: 50px;">
+                <h1>evets</h1>
+        </div>
+        </div>
+</section>
+{% endblock content %}
+    
